@@ -11,6 +11,7 @@ const Home = () => {
   return (
     <Layout>
       <title>Ye Yuan (SDE) Portfolio</title>
+      <meta name="google-site-verification" content="YfRqgo2_r9MMEz19CPbJg4tVBSL-Cu9BERH1uOt7-1M" />
       <Section grid>
         <Hero />
         <BgAnimation />
