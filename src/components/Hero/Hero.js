@@ -12,7 +12,7 @@ const Hero = (props) => (
         I'm Ye Yuan
       </SectionTitle>
       <SectionText>
-        I'm seeking Summer 2023 SDE Intern opportunities! I'm a senior CS undergraduate at UC Santa Barbara passionate about Software Engineering, Machine Learning, and Computer Security. 
+        I'm seeking Summer 2023 SDE Intern opportunities! I'm a senior CS undergraduate at UC Santa Barbara passionate about Software Engineering, Scalable System, Machine Learning, and Computer Security. 
       </SectionText>
       <Button onClick={() => window.location ='mailto:$Ye%20Yuan<$maxwell.yuanyeh@gmail.com>'}>Contact Me</Button>
     </LeftSection>

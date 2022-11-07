@@ -10,6 +10,7 @@ import { Section } from '../styles/GlobalComponents';
 const Home = () => {
   return (
     <Layout>
+      <title>Ye Yuan (SDE) Portfolio</title>
       <Section grid>
         <Hero />
         <BgAnimation />
