@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Hydra Web',
-    description: "Developed a twitter-like social network web application using Ruby on Rails, included a very generic design of any modern-day social media application, like viewing and creating posts, commenting and favoriting on existing posts, forming a group with a couple of users, and chatting with friends privately",
+    description: "Developed a twitter-like social network web application using Ruby on Rails, included a very generic design of any modern-day social media application, like viewing and creating posts, commenting and favoriting on existing posts, forming a group with a couple of users, and chatting with friends privately.",
       image: '/images/ruby-on-rails.jpg',
     tags: ['Ruby on Rails', 'React', 'Docker', 'AWS'],
     source: 'https://github.com/scalableinternetservices/Hydra',
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Hawk App',
-    description:"Developed an Android mobile application, aimed to make your community safer, with Java and OpenCV framework, including several video stream detection functions driven by the latest neural networks",
+    description:"Developed an Android mobile application, aimed to make your community safer, with Java and OpenCV framework, including several video stream detection functions driven by the latest neural networks.",
     image: '/images/hawk.png',
     tags: ['Android', 'Java', 'OpenCV', 'C++'],
     source: 'https://github.com/YEthYuan/Hawk',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Homework Submission Platform',
-    description: "Developed a full-stack, monolithic architecture web application with Java Spring-SpringMVC-MyBatis framework for homework collection service to instructors and about 600 students in my department",
+    description: "Developed a full-stack, monolithic architecture web application with Java Spring-SpringMVC-MyBatis framework for homework collection service to instructors and about 600 students in my department.",
     image: '/images/homework.png',
     tags: ['Java', 'Spring', 'React', 'MyBatis'],
     // source: 'https://google.com',
@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: "City's Subway Guide",
-    description: "Developed a Windows client to support navigations for a complex subway system with 20+ lines and 300+ stations, with graphical UI designed with Qt and APIs developed with C/C++",
+    description: "Developed a Windows client to support navigations for a complex subway system with 20+ lines and 300+ stations, with graphical UI designed with Qt and APIs developed with C/C++.",
     image: '/images/subway.jpg',
     tags: ['C/C++', 'Qt', 'MySQL'],
     source: 'https://github.com/YEthYuan/Subway-ride-navigation-system',
