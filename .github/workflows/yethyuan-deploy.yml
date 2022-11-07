@@ -37,6 +37,7 @@ jobs:
       uses: cicirello/generate-sitemap@v1
       with:
         base-url-path: https://yethyuan.github.io/
+        path-to-root: out
 #         sitemap-path: ./out/sitemap.xml
     
     - name: Deploy to GitHub Pages
