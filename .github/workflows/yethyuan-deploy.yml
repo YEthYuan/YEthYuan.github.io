@@ -26,13 +26,22 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+        fetch-depth: 0
     - run: npm ci
     - run: npm run build
     - run: npm run export
     - run: touch ./out/.nojekyll
     
+    - name: Generate the sitemap
+      id: sitemap
+      uses: cicirello/generate-sitemap@v1
+      with:
+        base-url-path: https://yethyuan.github.io/
+        path-to-root: out
+#         sitemap-path: ./out/sitemap.xml
+    
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4.4.1
       with:
         branch: gh-pages # The branch the action should deploy to.
-        folder: out # The folder the action should deploy.#
+        folder: out # The folder the action should deploy.
