@@ -20,8 +20,8 @@ const Footer = () => {
           <LinkItem href="tel:+1-650-504-9917">+1 (650) 504-9917</LinkItem>
 
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:$Ye%20Yuan<$maxwell.yuanyeh@gmail.com>">
-            maxwell.yuanyeh@gmail.com (Primary)
+          <LinkItem href="mailto:$Ye%20Yuan<$ask@yeyuan.pro>">
+            ask@yeyuan.pro (Primary)
           </LinkItem>
           <LinkItem href="mailto:$Ye%20Yuan<$ye33@ucsb.edu>">
             ye33@ucsb.edu (Education only)
