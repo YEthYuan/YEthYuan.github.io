@@ -52,3 +52,30 @@ export const StatisticData = [
   { number: 9, text: 'Projects', },
   { number: 154, text: 'CS Units', }
 ];
+
+export const Friends = [
+  {
+    name: "Wyatt Zhu",
+    affiliation: "Nankai University",
+    link: "https://wyatt-zhu.github.io/",
+    misc: ["B.S., Optoelectronic Information Science, College of Physics"],
+  },
+  {
+    name: "Alex Zheng",
+    affiliation: "Tongji University",
+    link: "https://zhuowenzheng.github.io/",
+    misc: ["Undergraduate student (graduating 2023)"],
+  },
+  {
+    name: "Xin Tan",
+    affiliation: "Jilin University",
+    link: "https://tanyeeastxintan.github.io/",
+    misc: ["2023 Fall M.S. in Computer Science student in the United States"],
+  },
+  {
+    name: "Zhendong Li",
+    affiliation: "Shanghai University",
+    link: "https://dmax13.ltd/",
+    misc: ["Undergraduate, QianWeiChang College"],
+  },
+];
