@@ -8,5 +8,8 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    //Subscribe Section
+    require("@tailwindcss/forms"),
+  ],
 };
