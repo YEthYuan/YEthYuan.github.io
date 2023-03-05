@@ -1,0 +1,7 @@
+/* This is where your custom styles go */
+/* ... */
+
+/* These are the Tailwind CSS directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
