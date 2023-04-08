@@ -119,6 +119,141 @@ export const projects = [
   },
 ];
 
+export const SkillData = {
+  //Proficiency Level mappings: 0~Starter, 1~Intermediate, 2~Advanced, 3~Expert
+  lang: [
+    {
+      id: 0,
+      name: "Java",
+      level: 3,
+      website: "https://www.java.com",
+    },
+    {
+      id: 1,
+      name: "JavaScript",
+      level: 2,
+      website: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    },
+    {
+      id: 2,
+      name: "Python",
+      level: 3,
+      website: "https://www.python.org",
+    },
+    {
+      id: 3,
+      name: "Ruby",
+      level: 0,
+      website: "https://www.ruby-lang.org",
+    },
+    {
+      id: 4,
+      name: "C/C++",
+      level: 1,
+      website: "https://www.cplusplus.com",
+    },
+    {
+      id: 5,
+      name: "Golang",
+      level: 1,
+      website: "https://golang.org",
+    },
+    {
+      id: 6,
+      name: "SQL",
+      level: 2,
+      website: "https://www.sqltutorial.org",
+    },
+    {
+      id: 7,
+      name: "Bash",
+      level: 2,
+      website: "https://www.gnu.org/software/bash/",
+    },
+  ],
+  backend: [
+    {
+      id: 0,
+      name: "Spring",
+      level: 2,
+      website: "https://spring.io",
+    },
+    {
+      id: 1,
+      name: "Spring MVC",
+      level: 2,
+      website:
+        "https://docs.spring.io/spring-framework/docs/current/reference/html/web.html",
+    },
+    {
+      id: 2,
+      name: "Spring Boot",
+      level: 2,
+      website: "https://spring.io/projects/spring-boot",
+    },
+    {
+      id: 3,
+      name: "Ruby on Rails",
+      level: 1,
+      website: "https://rubyonrails.org",
+    },
+    {
+      id: 4,
+      name: "Node.js",
+      level: 2,
+      website: "https://nodejs.org",
+    },
+  ],
+  frontend: [
+    {
+      id: 0,
+      name: "HTML",
+      level: 2,
+      website: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    },
+    {
+      id: 1,
+      name: "JSP/JSTL",
+      level: 1,
+      website: "https://docs.oracle.com/javaee/5/tutorial/doc/bnahe.html",
+    },
+    {
+      id: 2,
+      name: "CSS",
+      level: 2,
+      website: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    },
+    {
+      id: 3,
+      name: "SCSS",
+      level: 1,
+      website: "https://sass-lang.com",
+    },
+    {
+      id: 4,
+      name: "React.js",
+      level: 2,
+      website: "https://reactjs.org",
+    },
+    {
+      id: 5,
+      name: "Next.js",
+      level: 1,
+      website: "https://nextjs.org",
+    },
+  ],
+  tools: [
+    { id: 0, name: "MySQL", level: 2, website: "https://www.mysql.com/" },
+    { id: 1, name: "Redis", level: 2, website: "https://redis.io/" },
+    { id: 2, name: "ElasticSearch", level: 1, website: "https://www.elastic.co/" },
+    { id: 3, name: "AWS", level: 1, website: "https://aws.amazon.com/" },
+    { id: 4, name: "Docker", level: 1, website: "https://www.docker.com/" },
+    { id: 5, name: "Kubernetes", level: 1, website: "https://kubernetes.io/" },
+    { id: 6, name: "Git", level: 3, website: "https://git-scm.com/" },
+    { id: 7, name: "Linux", level: 2, website: "https://www.linux.org/" },
+  ],
+};
+
 export const TimeLineData = [
   { year: 2013, text: "Hello World in C++" },
   { year: 2015, text: "Won prize in Programming Contest" },
@@ -140,25 +275,25 @@ export const Friends = [
   {
     name: "Wyatt Zhu",
     affiliation: "Nankai University",
-    link: "https://wyatt-zhu.github.io/",
+    website: "https://wyatt-zhu.github.io/",
     misc: ["B.S., Optoelectronic Information Science, College of Physics"],
   },
   {
     name: "Alex Zheng",
     affiliation: "Tongji University",
-    link: "https://zhuowenzheng.github.io/",
+    website: "https://zhuowenzheng.github.io/",
     misc: ["Undergraduate student (graduating 2023)"],
   },
   {
     name: "Xin Tan",
     affiliation: "Jilin University",
-    link: "https://tanyeeastxintan.github.io/",
+    website: "https://tanyeeastxintan.github.io/",
     misc: ["2023 Fall M.S. in Computer Science student in the United States"],
   },
   {
     name: "Zhendong Li",
     affiliation: "Shanghai University",
-    link: "https://dmax13.ltd/",
+    website: "https://dmax13.ltd/",
     misc: ["Undergraduate, QianWeiChang College"],
   },
 ];

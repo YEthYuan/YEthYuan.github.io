@@ -152,3 +152,15 @@ export const CarouselButtonDot = styled.div`
   width: 3px;
   height: 3px;
 `
+
+export const ImageLeft = styled.img`
+  float: left;
+  margin: 8px 16px 8px 0;
+  max-width: 40%;
+`;
+
+export const ImageRight = styled.img`
+  float: right;
+  margin: 8px 0 8px 16px;
+  max-width: 40%;
+`;
