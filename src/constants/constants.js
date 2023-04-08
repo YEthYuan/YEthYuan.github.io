@@ -1,17 +1,75 @@
 export const NewsData = [
   {
     id: 1,
-    image: "/images/placeholder.png",
-    title: "News Title 1",
-    date: "2023-03-15",
+    image: "/images/miscs/Seattle-1.jpg",
+    title: "Seattle Trip 1",
+    date: "2023-01-01",
     content:
       "This is a sample news content 1. We will truncate the content to 20 words.",
   },
   {
     id: 2,
-    image: "/images/placeholder.png",
-    title: "News Title 2",
-    date: "2023-03-14",
+    image: "/images/miscs/Seattle-2.jpg",
+    title: "Seattle Trip 2",
+    date: "2023-01-02",
+    content:
+      "This is a sample news content 1. We will truncate the content to 20 words.",
+  },
+  {
+    id: 3,
+    image: "/images/miscs/Seattle-3.jpg",
+    title: "Seattle Trip 3",
+    date: "2023-01-03",
+    content:
+      "This is a sample news content 1. We will truncate the content to 20 words.",
+  },
+  {
+    id: 4,
+    image: "/images/miscs/Seattle-4.jpg",
+    title: "Seattle Trip 4",
+    date: "2023-01-04",
+    content:
+      "This is a sample news content 1. We will truncate the content to 20 words.",
+  },
+  {
+    id: 5,
+    image: "/images/miscs/Seattle-5.jpg",
+    title: "Seattle Trip 5",
+    date: "2023-01-05",
+    content:
+      "This is a sample news content 1. We will truncate the content to 20 words.",
+  },
+  {
+    id: 6,
+    image: "/images/miscs/Seattle-6.jpg",
+    title: "Seattle Trip 6",
+    date: "2023-01-06",
+    content:
+      "This is a sample news content 1. We will truncate the content to 20 words.",
+  },
+  {
+    id: 7,
+    image: "/images/miscs/Seattle-7.jpg",
+    title: "Seattle Trip 7",
+    date: "2023-01-07",
+    content:
+      "This is a sample news content 1. We will truncate the content to 20 words.",
+  },
+  {
+    id: 8,
+    image: "/images/news/Robust-Transferred-Ticket.png",
+    title:
+      'Exciting news! Our latest paper titled "Robust Tickets Can Transfer Better: Drawing More Transferable Subnetworks in Transfer Learning" has been accepted by DAC 2023!',
+    date: "2023-02-13",
+    content:
+      "This is a sample news content 2. We will truncate the content to 20 words.",
+  },
+  {
+    id: 9,
+    image: "/images/news/cmu-ini-admission.jpg",
+    title:
+      "I am beyond thrilled to share that I have been accepted into the Master of Science in Information Networking (MSIN) program at The Information Networking Institute at Carnegie Mellon University (CMU) for the fall of 2023.",
+    date: "2023-03-29",
     content:
       "This is a sample news content 2. We will truncate the content to 20 words.",
   },

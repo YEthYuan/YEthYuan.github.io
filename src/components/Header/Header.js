@@ -6,16 +6,28 @@ import { SiLeetcode, SiGooglescholar } from 'react-icons/si'
 
 import { Container, Span, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
-const Header = () =>  (
+const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20px' }}>
+        <a
+          style={{
+            display: "flex",
+            alignItems: "center",
+            color: "white",
+            marginBottom: "20px",
+          }}
+        >
           <DiCssdeck size="3rem" /> <Span>Ye Yuan</Span>
         </a>
       </Link>
     </Div1>
     <Div2>
+      <li>
+        <Link href="/#news">
+          <NavLink>News</NavLink>
+        </Link>
+      </li>
       <li>
         <Link href="/#projects">
           <NavLink>Projects</NavLink>
