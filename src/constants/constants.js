@@ -296,4 +296,10 @@ export const Friends = [
     website: "https://dmax13.ltd/",
     misc: ["Undergraduate, QianWeiChang College"],
   },
+  {
+    name: "Keven Zhang",
+    affiliation: "Communication University of China",
+    website: "https://1keven1.github.io/",
+    misc: ["Personal Blog"],
+  },
 ];

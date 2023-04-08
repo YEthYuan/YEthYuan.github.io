@@ -36,7 +36,7 @@ const Footer = () => {
             {Friends.map((item, index) => (
               <li key={index}>
                 <Tooltip title={item.affiliation} color="#212D45">
-                  <LinkItem href={item.link}>{item.name}</LinkItem>
+                  <LinkItem href={item.website}>{item.name}</LinkItem>
                 </Tooltip>
               </li>
             ))}
