@@ -1,0 +1,9 @@
+.word {
+  font-weight: bold;
+  cursor: default;
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.highlight {
+  text-shadow: 0 0 0.2em rgba(34, 98, 150, 0.5), 0 0 0.2em rgba(34, 98, 150, 0.5), 0 0 0.2em rgba(34, 98, 150, 0.5);
+}

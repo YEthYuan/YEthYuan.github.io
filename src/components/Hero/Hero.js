@@ -3,6 +3,7 @@ import React from 'react';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
+import HighlightWord from '../miscs/HighlightWord';
 
 const Hero = (props) => (
   <Section row nopadding>
@@ -12,10 +13,12 @@ const Hero = (props) => (
         I'm Ye Yuan
       </SectionTitle>
       <SectionText>
-        I'm seeking Summer 2023 SDE Intern opportunities! I'm a senior CS
-        undergraduate at UC Santa Barbara passionate about Software Engineering,
-        Scalable System, Machine Learning, and Computer Security. If you have
-        opportunities, feel free to email hire@yeyuan.pro
+        <HighlightWord word="I'm actively seeking Summer 2024 SDE Internship opportunities!" />{" "}
+        As a dedicated CS Master's student at{" "}
+        <HighlightWord word="Carnegie Mellon University" />, I am driven by my
+        passion for Software Engineering, Scalable Systems, Machine Learning,
+        and Computer Security. If you have exciting opportunities, don't
+        hesitate to reach out at <HighlightWord word="hire@yeyuan.pro" />!
       </SectionText>
       <Button
         onClick={() =>
