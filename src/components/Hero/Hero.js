@@ -13,7 +13,7 @@ const Hero = (props) => (
         I'm Ye Yuan
       </SectionTitle>
       <SectionText>
-        <HighlightWord word="I'm actively seeking Summer 2024 SDE Internship opportunities!" />{" "}
+        <HighlightWord word="I'm actively seeking Summer 2023 SDE Internship opportunities!" />{" "}
         As a dedicated CS Master's student at{" "}
         <HighlightWord word="Carnegie Mellon University" />, I am driven by my
         passion for Software Engineering, Scalable Systems, Machine Learning,
