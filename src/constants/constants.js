@@ -73,6 +73,33 @@ export const NewsData = [
     content:
       "This is a sample news content 2. We will truncate the content to 20 words.",
   },
+  {
+    id: 10,
+    image: "/images/news/23fall-application.png",
+    title:
+      "Multiple MSCS program admission received during the 2023 Fall Application Season!",
+    date: "2023-04-01",
+    content:
+      "This is a sample news content 2. We will truncate the content to 20 words.",
+  },
+  {
+    id: 11,
+    image: "/images/news/nerfool.gif",
+    title:
+      'Exciting news! Our latest paper titled "NeRFool: Uncovering the Vulnerability of Generalizable Neural Radiance Fields against Adversarial Perturbations" has been accepted by ICML 2023 with an acceptance rate of 27%! This marks the end of my journey at GaTech EIC Lab.',
+    date: "2023-04-16",
+    content:
+      "This is a sample news content 2. We will truncate the content to 20 words.",
+  },
+  {
+    id: 12,
+    image: "/images/news/ali-cloud-offer.jpg",
+    title:
+      "I'm happy to share that after careful consideration, I will join Alibaba Cloud this summer as a backend software engineer focusing on cloud infrastructure!",
+    date: "2023-05-10",
+    content:
+      "This is a sample news content 2. We will truncate the content to 20 words.",
+  },
   // Add more news items as needed
 ];
 
